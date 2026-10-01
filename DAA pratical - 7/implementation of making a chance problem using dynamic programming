@@ -1,4 +1,3 @@
-```python
 def combCoin(coin, n):
     m = len(coin)
     dp = [[0 for j in range(n + 1)] for i in range(m + 1)]
@@ -38,4 +37,4 @@ for i in range(n):
 result = combCoin(coin, amount)
 
 print("Number of ways to give the amount is:", result)
-```
+
